@@ -1,11 +1,11 @@
 jobs:
- - name: u14cppall-test
+ - name: u14javall-test
    type: runSh
    steps:
      - TASK:
          runtime:
            options:
-             imageName: "drydock/u14cppall"
+             imageName: "drydock/u14javall"
              imageTag: master
          script:
            - /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java -version
